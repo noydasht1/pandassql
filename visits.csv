@@ -1,0 +1,9 @@
+visit_id,patient_id,visit_date,department,physician,site
+V001,P001,2025-01-05,Cardiology,Dr. Cohen,A
+V002,P001,2025-06-10,Endocrinology,Dr. Levi,A
+V003,P002,2025-02-11,Internal,Dr. Cohen,A
+V004,P003,2025-04-02,Endocrinology,Dr. Amir,B
+V005,P004,2025-04-15,ER,Dr. Amir,B
+V006,P005,2024-12-25,Internal,Dr. Noa,C
+V007,P008,2025-03-01,Cardiology,Dr. Amir,B
+V008,P011,2025-05-01,ER,Dr. Noa,C

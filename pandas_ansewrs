@@ -1,0 +1,30 @@
+import pandas as pd
+#P1Q1
+patients = pd.read_csv("patients.csv")
+visits = pd.read_csv("visits.csv")
+diagnoses = pd.read_csv("diagnoses.csv")
+labs = pd.read_csv("labs.csv")
+patients = pd.read_csv("patients.csv")
+medications = pd.read_csv("medications.csv")
+icd10 = pd.read_csv("icd10_reference.csv")
+lab_reference = pd.read_csv("lab_reference.csv")
+print(patients)
+print(patients.shape)
+print(patients.dtypes)
+#Q3
+patients["birth_date"] = pd.to_datetime(patients["birth_date"], errors="coerce")
+print(patients["birth_date"])
+#Q4
+patients["age"] = (2026 - patients["birth_date"].dt.year)
+print(patients["age"])
+#Q5
+print(patients[patients['age'] > 50])
+print(patients.loc[patients["age"] > 50 , ["patient_id", "gender", "site", "age"]])
+#Q6
+print(patients.groupby("site")["patient_id"].count().sort_values(ascending=False))
+#Q7
+pid_visits = visits["patient_id"].drop_duplicates()
+pid = patients["patient_id"].drop_duplicates()
+print(pid_visits)
+print(pid)
+print(pid[~pid.isin(pid_visits)])

@@ -1,0 +1,6 @@
+med_id,patient_id,drug_name,start_date,status
+M001,P001,Metformin,2025-01-10,active
+M002,P003,Insulin,2025-04-05,active
+M003,P002,Amlodipine,2025-02-12,active
+M004,P005,Metformin,2025-01-02,stopped
+M005,P011,Metformin,2025-05-01,active

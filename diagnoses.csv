@@ -1,0 +1,10 @@
+patient_id,icd10,diagnosis_date,diagnosis_description
+P001,E11,2024-12-30,Type 2 diabetes mellitus
+P001,I10,2025-01-05,Hypertension
+P002,I10,2025-02-11,Hypertension
+P003,E11,2025-04-02,Type 2 diabetes mellitus
+P003,I10,2025-04-02,Hypertension
+P004,J45,2025-04-15,Asthma
+P005,E11,2024-12-25,Type 2 diabetes mellitus
+P006,O80,2025-02-01,Encounter for full-term uncomplicated delivery
+P012,E11,2025-05-03,Type 2 diabetes mellitus
