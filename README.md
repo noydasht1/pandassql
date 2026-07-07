@@ -1,4 +1,3 @@
-# Briya Practice Dataset
 
 This dataset simulates real-world medical/RWD data for Python, Pandas, and SQL practice.
 
