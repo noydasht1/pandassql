@@ -1,4 +1,3 @@
-# Briya-Style Technical Questions
 ## 30 Questions with Pandas + SQL Answers
 
 Dataset files/tables: `patients`, `visits`, `diagnoses`, `labs`, `medications`, `icd10_reference`, `lab_reference`.
